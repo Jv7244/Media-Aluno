@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="basicoJS.js"></script>
+    <link href="basicoJS.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="result">
+        <div id="notas">
+        <script>
+            document.write("<span>NOTAS NO SISTEMA:</span> <br><br>")
+            for(let i = 0;i<alunos.length;i++){
+                if(notas[i] != undefined){
+                    document.write(" Aluno "+alunos[i]+" Media "+notas[i]+"<br>")
+                }
+            }
+            
+            console.log(valor)
+        </script>
+        </div>
+        <div id="alunos">
+        <script>    
+            document.write("<br><br><br><span>ALUNOS NO SISTEMA: </span><br><br>")
+            for(let i = 0;i<alunos.length;i++){
+                document.write(" Aluno "+alunos[i]+"<br>")
+            }
+        </script>
+        </div>
+    </div>
+</body>
+</html>
